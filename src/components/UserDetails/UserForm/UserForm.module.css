@@ -1,0 +1,200 @@
+.newUser {
+    width: 250px;
+    height: 150px;
+    margin: 20px 20px;
+    padding: 6px;
+    display: inline-block;
+    /*border: 1px solid black;*/
+    /*box-shadow: 4px 4px #1881b2;*/
+    border: 1px solid #1881b2;
+    box-shadow: 0 4px 5px #c55b41; /*#05445E;*/
+    background-color: #f0f9fb;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    opacity: 95%;
+    animation: fade .4s linear;
+}
+
+.newUser h4 {
+    color: #053168;
+    font-weight: normal;
+}
+
+.pswdValidationDisplayed {
+    height: auto;
+    animation: pwdValWar .2s linear;
+}
+
+.newUserWarning {
+    height: auto;
+    animation: warning .2s linear;
+}
+
+.userNameWarning {
+    border-color: #c55b41;
+    border-width: 2px;
+}
+
+@keyframes pwdValWar {
+    0%, 100% {
+        height: auto;
+    }
+    100% {
+        height: auto;
+    }
+}
+
+@keyframes warning {
+    0%, 100% {
+        height: auto;
+    }
+    100% {
+        height: auto;
+    }
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 95%;
+    }
+}
+
+.newUser .inputField {
+    width: 90%;
+    border-radius: 8px;
+    height: 25px;
+    margin: 3px 0;
+    padding: 8px;
+    border: 1px solid #1881b2;
+}
+
+
+.newUser .eye {
+    margin-left: -24px;
+    margin-bottom: -6px;
+    width: 24px;
+    height: 22px;
+    padding: 0;
+    border: 0;
+}
+
+.newUser h4 {
+    margin: 1px;
+    padding: 1px;
+    font-size: 15px;
+}
+
+.newUser hr {
+    margin: 5px;
+}
+
+h5 {
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    font-size: 9px;
+    width: 20%;
+    opacity: 1;
+    animation: fade .4s linear;
+}
+
+progress {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    width: 65%;
+    height: 0.15em;
+    border-radius: 0.1em;
+    text-align: right;
+    font-size: 15px;
+    display: inline-block;
+    opacity: 1;
+    animation: fade .4s linear;
+
+    /* Applicable only to Firefox
+    background: rgba(0, 0, 0, 0.1) none;*/
+}
+
+/* Webkit based browsers */
+progress[value='1']::-webkit-progress-value {
+    background-color: #c55b41;
+}
+
+progress[value='2']::-webkit-progress-value {
+    background-color: #c4b04b;
+}
+
+progress[value='3']::-webkit-progress-value {
+    background-color: #238da0;
+}
+
+
+.Button {
+    width: 25%;
+    height: 18px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border: none;
+    cursor: pointer;
+    color: #FAFAFA;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.Button:disabled {
+    background-color: #ccc;
+}
+
+
+.green {
+    background-color: #238da0;
+    margin-left: 90px;
+}
+
+.green:hover:not([disabled]) {
+    box-shadow: 0 0 6px #238da0;
+}
+
+.red {
+    background-color: #c55b41;
+}
+
+.red:hover {
+    box-shadow: 0 0 6px #c55b41;
+}
+
+.warning {
+    color: #c55b41;
+    padding: 1px;
+    margin: 1px;
+    opacity: 1;
+    animation: fade .4s linear;
+    font-size: 10px;
+}
+
+.pswdValidationText {
+    width: 65%;
+    margin-top: 2px;
+    margin-left: 27%;
+    white-space: pre;
+    display: block;
+    font-size: 10px;
+    color: #c55b41;
+    opacity: 1;
+    animation: fade .4s linear;
+}
+
+.pswdValidationText text {
+    color: #238da0;
+    marker: none;
+}

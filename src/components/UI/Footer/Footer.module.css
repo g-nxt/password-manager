@@ -1,0 +1,56 @@
+.Footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    /*background-color: #98f1ff;*/
+    opacity: 18%;
+    position: absolute;
+    background-position: bottom;
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+.Footer1 {
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    right: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #98f1ff;
+    opacity: 10%;
+}
+
+.Footer3 {
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    right: 0;
+    height: 15px;
+    width: 100%;
+    background-color: #98f1ff;
+    opacity: 5%;
+}
+
+.Footer4 {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    right: 0;
+    height: 10px;
+    width: 100%;
+    background-color: #98f1ff;
+    opacity: 2.5%;
+}
+
+.Image {
+    width: fit-content;
+}
+
+@media (max-width: 500px) {
+    .Footer {
+        height: 60%;
+    }
+}

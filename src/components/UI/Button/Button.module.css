@@ -1,0 +1,73 @@
+.Button {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    font-size: 12px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    opacity: 1;
+    animation: fade .4s linear;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@media (max-width: 280px) {
+    .Button {
+        font-size: 10px;
+        padding: 7px;
+        margin: 18px;
+    }
+}
+
+.Success {
+    /*color: #5C9210;
+    border: 1px solid #5C9210;*/
+    color: #FAFAFA;
+    background-color: #238da0;
+    border: 0;
+}
+
+.Danger {
+    /*color: #944317;
+    border: 1px solid #944317;*/
+    color: #FAFAFA;
+    background-color: #c55b41;
+    border: 0;
+}
+
+.Success:active {
+    background-color: #FAFAFA;
+    color: #238da0;
+}
+
+.Danger:active {
+    background-color: #FAFAFA;
+    color: #c55b41;
+}
+
+.Success:hover {
+    /*border: 1px solid black;*/
+    box-shadow: 0 0 8px #238da0;
+
+}
+
+.Danger:hover {
+    /*border: 1px solid black;*/
+    box-shadow: 0 0 8px #c55b41;
+}
+
+.Success::after {
+    box-shadow: 0 0;
+}
