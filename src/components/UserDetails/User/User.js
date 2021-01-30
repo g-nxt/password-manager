@@ -31,7 +31,7 @@ const user = (props) => {
     let copyInputField = null;
 
     if (displayCopiedText) {
-        copyInputField = <sup>Copied!</sup>
+        copyInputField = <sup className={classes.copiedText}>Copied!</sup>
         setTimeout(() => {
             setDisplayCopiedText(false)
         }, 1500)
@@ -61,10 +61,10 @@ const user = (props) => {
 
     let form = (
         <form className={classes.Input}>
-            {copyInputField}
-            <input type="image" src={Edit} className={classes.edit} onClick={editUserHandler} alt="" title="Edit"/>
             <input type="image" src={Delete} className={classes.delete} alt="" onClick={delConfirmationHandler}
                    title="Delete"/>
+            <input type="image" src={Edit} className={classes.edit} onClick={editUserHandler} alt="" title="Edit"/>
+            {copyInputField}
         </form>)
 
     let userStyle = [classes.User]
@@ -79,7 +79,6 @@ const user = (props) => {
         const greenButton = [classes.Button, classes.green]
         form = (
             <Fragment>
-                {/*<Passcode/>*/}
                 <form className={classes.Input}>
                     <button className={greenButton.join(' ')} onClick={delCancelHandler}>Cancel</button>
                     <button className={redButton.join(' ')} onClick={delUserHandler}>Delete</button>

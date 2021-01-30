@@ -2,7 +2,7 @@ import React, {Component, Fragment} from "react";
 import Header from "../../components/Apps/Header/Header";
 import UsersList from "../../components/UserDetails/UsersList/UsersList";
 import Apps from "../../components/Apps/Apps";
-import Passcode from "../Passcode/Passcode";
+import PasscodeConfirmation from "../Passcode/PasscodeConfirmation/PasscodeConfirmation";
 import Modal from "../../components/UI/Modal/Modal"
 import {DELETE_APP, DELETE_USER, EDIT_USER} from "./PasswordManagerActions";
 
@@ -21,6 +21,7 @@ class PasswordManager extends Component {
         appToBeDeleted: '',
         userToBeModified: '',
         passToBeModified: '',
+        pin: '',
         /*apps: [],
         userDetails: []*/
         apps: ['Gmail', 'Outlook', 'Facebook', 'Instagram', 'LinkedIn'],
@@ -280,12 +281,13 @@ class PasswordManager extends Component {
 
         let passCode = null
         if (this.state.pinNeeded) {
-            passCode = <Passcode
+            passCode = <PasscodeConfirmation
+                pin={this.state.pin}
                 show={true}
                 modalClosed={this.flipModalVisibility}
                 passcodeConfirmed={this.passCodeConfirmationAction}
                 passcodeCanceled={this.passCodeCancellationAction}>
-            </Passcode>
+            </PasscodeConfirmation>
         }
 
         let completeApp =

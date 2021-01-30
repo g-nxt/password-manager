@@ -241,7 +241,11 @@ const userForm = (props) => {
                     autoComplete="off"
                     onFocus={e => e.currentTarget.select()}
                     onChange={passwdOnChange}/>
-                <input className={classes.eye} type="image" src={Eye} alt='' hidden={passwdValue.length < 1}
+                <input className={classes.eye}
+                       type="image"
+                       src={Eye}
+                       alt=''
+                       hidden={passwdValue.length < 1}
                        onClick={togglePasswordVisiblity}/>
                 {pswdStrength}
             </form>

@@ -52,20 +52,28 @@
     color: #238da0;
 }
 
+.Success:disabled {
+    background-color: #ccc;
+}
+
 .Danger:active {
     background-color: #FAFAFA;
     color: #c55b41;
 }
 
-.Success:hover {
+.Success:hover:not([disabled]) {
     /*border: 1px solid black;*/
     box-shadow: 0 0 8px #238da0;
 
 }
 
-.Danger:hover {
+.Danger:hover:not([disabled]) {
     /*border: 1px solid black;*/
     box-shadow: 0 0 8px #c55b41;
+}
+
+.Danger:disabled {
+    background-color: #ccc;
 }
 
 .Success::after {

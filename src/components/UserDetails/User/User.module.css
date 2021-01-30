@@ -1,6 +1,6 @@
 .User {
     width: 250px;
-    height: 70px;
+    height: 72px;
     margin: 20px 20px;
     padding: 10px;
     display: inline-block;
@@ -56,19 +56,24 @@
 }
 
 .copy:not(:active) {
-    transition: background-color 2000ms step-end
+    transition: background-color 2000ms step-end;
 }
 
 .copy:active {
-    background-color: #05445E;
+    background-color: #053168;
 }
 
 .edit {
     margin-left: 60px;
 }
 
-.delete {
+.copy {
     margin-left: 60px;
+}
+
+.copiedText {
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 .AddUserInput {
@@ -107,7 +112,6 @@
 }
 
 .green:hover:not([disabled]) {
-    /*transform: scale(1.15);*/
     box-shadow: 0 0 8px #238da0;
 }
 
