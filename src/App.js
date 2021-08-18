@@ -23,7 +23,7 @@ function App() {
         </div>*/
         <Fragment>
             <PasswordManager/>
-            <Footer/>
+            {/*<Footer/>*/}
         </Fragment>
     );
 }
