@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f259ef4f52dd317a9d18b5900b00bee",
+    "revision": "0fddc805cd447b0cb9444940d4d3140c",
     "url": "/password-manager/index.html"
   },
   {
-    "revision": "72ac5bdee75812e66191",
+    "revision": "e737020b836328af3586",
     "url": "/password-manager/static/css/main.272aab2a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/password-manager/static/js/2.2124d0e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72ac5bdee75812e66191",
-    "url": "/password-manager/static/js/main.9fee137e.chunk.js"
+    "revision": "e737020b836328af3586",
+    "url": "/password-manager/static/js/main.3f90b03b.chunk.js"
   },
   {
     "revision": "3fb4159367189c3f6253",
