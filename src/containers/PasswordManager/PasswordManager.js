@@ -24,43 +24,15 @@ class PasswordManager extends Component {
         pin: '',
         /*apps: [],
         userDetails: []*/
-        apps: ['Gmail', 'Outlook', 'Facebook', 'Instagram', 'LinkedIn'],
+        apps: ['Test'],
         userDetails: [
             {
-                app: 'Gmail',
+                app: 'Test',
                 users: {
-                    user: ['G-San', 'G-Ela', 'G-Manga'],
-                    pwd: ['G-San-P', 'G-Ela-P', 'G-Manga-P']
+                    user: ['TestUser'],
+                    pwd: ['TestPassword']
                 }
-            },
-            {
-                app: 'Outlook',
-                users: {
-                    user: ['O-San', 'O-Ela'],
-                    pwd: ['O-San-P', 'O-Ela-P']
-                }
-            },
-            {
-                app: 'Facebook',
-                users: {
-                    user: ['F-San', 'F-Ela', 'F-Manga'],
-                    pwd: ['F-San-P', 'F-Ela-P', 'F-Manga-P']
-                }
-            },
-            {
-                app: 'Instagram',
-                users: {
-                    user: ['I-San', 'I-Ela'],
-                    pwd: ['I-San-P', 'I-Ela-P']
-                }
-            },
-            {
-                app: 'LinkedIn',
-                users: {
-                    user: ['L-San', 'L-Ela', 'L-Manga'],
-                    pwd: ['L-San-P', 'L-Ela-P', 'L-Manga-P']
-                }
-            }]
+            },]
     }
 
     componentDidMount() {
