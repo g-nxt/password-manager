@@ -4,7 +4,7 @@
     right: 0;
     width: 100%;
     /*background-color: #98f1ff;*/
-    opacity: 18%;
+    opacity: 0.18;
     position: absolute;
     background-position: bottom;
     overflow: hidden;
@@ -20,7 +20,7 @@
     height: 20px;
     width: 100%;
     background-color: #98f1ff;
-    opacity: 10%;
+    opacity: 0.1;
 }
 
 .Footer3 {
@@ -31,7 +31,7 @@
     height: 15px;
     width: 100%;
     background-color: #98f1ff;
-    opacity: 5%;
+    opacity: 0.05;
 }
 
 .Footer4 {
@@ -42,7 +42,7 @@
     height: 10px;
     width: 100%;
     background-color: #98f1ff;
-    opacity: 2.5%;
+    opacity: 0.025;
 }
 
 .Image {

@@ -8,7 +8,7 @@
     box-shadow: 0 2px 3px #5fcbca;
     background-color: #f0f9fb;
     border-radius: 8px;
-    opacity: 95%;
+    opacity: 0.95;
     animation: fade .4s linear;
 }
 
@@ -21,7 +21,7 @@
         opacity: 0
     }
     100% {
-        opacity: 95%;
+        opacity: 0.95;
     }
 }
 

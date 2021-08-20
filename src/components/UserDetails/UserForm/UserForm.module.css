@@ -12,7 +12,7 @@
     text-align: center;
     box-sizing: border-box;
     border-radius: 8px;
-    opacity: 95%;
+    opacity: 0.95;
     animation: fade .4s linear;
 }
 
@@ -59,7 +59,7 @@
         opacity: 0;
     }
     100% {
-        opacity: 95%;
+        opacity: 0.95;
     }
 }
 
