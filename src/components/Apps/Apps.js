@@ -151,13 +151,14 @@ class Apps extends Component {
         return (
             <div className={appStyle.join(' ')}>
                 <form>
-                    <h3>Search/Add</h3>
+                    <h3>Search/Add App</h3>
                     <AutoComplete
                         suggestions={this.props.apps}
                         userInputDetail={this.changeHandler}
                         addingNewApp={this.state.addingNewApp}
                     />
                 </form>
+                <h4>e.g. gmail, facebook</h4>
                 {actionTakerButton}
             </div>
 

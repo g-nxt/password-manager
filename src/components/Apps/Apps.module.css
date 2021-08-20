@@ -6,7 +6,7 @@
 
 body {
     /*background: linear-gradient(to bottom right, #00101f, #05445E, #065778);*/
-    background: black;
+    background: #00101f;
 }
 
 .Apps {
@@ -38,6 +38,14 @@ body {
     margin-top: 13px;
     margin-bottom: 13px;
     font-weight: normal;
+}
+
+.Apps h4 {
+    color: #053168;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-weight: normal;
+    font-size: small;
 }
 
 .deleteApp {

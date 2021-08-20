@@ -8,6 +8,7 @@ const usersList = (props) => {
     return (
         <div className={classes.UsersList}>
             <h3>{props.app}</h3>
+            {/*{props.userList > 0} ? null : <h4>No users found, click plus icon below to add</h4>*/}
             {props.userList[0].map((usr, i) => {
                 return <User key={i} name={usr} pwd={props.pwdList.map(pwd => pwd[i])}
                              delUserDetail={props.delUserDetail}
