@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/password-manager/static/css/main.5a572649.chunk.css",
-    "main.js": "/password-manager/static/js/main.cf656bbd.chunk.js",
-    "main.js.map": "/password-manager/static/js/main.cf656bbd.chunk.js.map",
-    "runtime-main.js": "/password-manager/static/js/runtime-main.a405ae8f.js",
-    "runtime-main.js.map": "/password-manager/static/js/runtime-main.a405ae8f.js.map",
-    "static/js/2.2124d0e5.chunk.js": "/password-manager/static/js/2.2124d0e5.chunk.js",
-    "static/js/2.2124d0e5.chunk.js.map": "/password-manager/static/js/2.2124d0e5.chunk.js.map",
+    "main.css": "/password-manager/static/css/main.57965a1c.chunk.css",
+    "main.js": "/password-manager/static/js/main.d12632be.chunk.js",
+    "main.js.map": "/password-manager/static/js/main.d12632be.chunk.js.map",
+    "runtime-main.js": "/password-manager/static/js/runtime-main.4112860c.js",
+    "runtime-main.js.map": "/password-manager/static/js/runtime-main.4112860c.js.map",
+    "static/js/2.273be95e.chunk.js": "/password-manager/static/js/2.273be95e.chunk.js",
+    "static/js/2.273be95e.chunk.js.map": "/password-manager/static/js/2.273be95e.chunk.js.map",
     "index.html": "/password-manager/index.html",
-    "precache-manifest.eee19701845721450104e15ecd9d79e4.js": "/password-manager/precache-manifest.eee19701845721450104e15ecd9d79e4.js",
-    "service-worker.js": "/password-manager/service-worker.js",
-    "static/css/main.5a572649.chunk.css.map": "/password-manager/static/css/main.5a572649.chunk.css.map",
-    "static/js/2.2124d0e5.chunk.js.LICENSE.txt": "/password-manager/static/js/2.2124d0e5.chunk.js.LICENSE.txt",
-    "static/media/add-icon.png": "/password-manager/static/media/add-icon.8b1855b4.png",
-    "static/media/delete-icon.png": "/password-manager/static/media/delete-icon.fc34633e.png",
-    "static/media/edit-icon.png": "/password-manager/static/media/edit-icon.1256dd70.png",
-    "static/media/eye.png": "/password-manager/static/media/eye.faec1369.png",
-    "static/media/footer-graphic.png": "/password-manager/static/media/footer-graphic.c7c06ab2.png"
+    "static/css/main.57965a1c.chunk.css.map": "/password-manager/static/css/main.57965a1c.chunk.css.map",
+    "static/js/2.273be95e.chunk.js.LICENSE.txt": "/password-manager/static/js/2.273be95e.chunk.js.LICENSE.txt",
+    "static/media/add-icon.4453d548.png": "/password-manager/static/media/add-icon.4453d548.png",
+    "static/media/delete-icon.c6477a00.png": "/password-manager/static/media/delete-icon.c6477a00.png",
+    "static/media/edit-icon.3e7ddfee.png": "/password-manager/static/media/edit-icon.3e7ddfee.png",
+    "static/media/eye.16f4853e.png": "/password-manager/static/media/eye.16f4853e.png",
+    "static/media/footer-graphic.9c305bd0.png": "/password-manager/static/media/footer-graphic.9c305bd0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a405ae8f.js",
-    "static/js/2.2124d0e5.chunk.js",
-    "static/css/main.5a572649.chunk.css",
-    "static/js/main.cf656bbd.chunk.js"
+    "static/js/runtime-main.4112860c.js",
+    "static/js/2.273be95e.chunk.js",
+    "static/css/main.57965a1c.chunk.css",
+    "static/js/main.d12632be.chunk.js"
   ]
 }
