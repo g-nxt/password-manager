@@ -253,13 +253,14 @@ class PasswordManager extends Component {
 
         let passCode = null
         if (this.state.pinNeeded) {
-            passCode = <PasscodeConfirmation
+            this.passCodeConfirmationAction() // Disable this line and enable below code to ask for the pin
+            /*passCode = <PasscodeConfirmation
                 pin={this.state.pin}
                 show={true}
                 modalClosed={this.flipModalVisibility}
                 passcodeConfirmed={this.passCodeConfirmationAction}
                 passcodeCanceled={this.passCodeCancellationAction}>
-            </PasscodeConfirmation>
+            </PasscodeConfirmation>*/
         }
 
         let completeApp =
