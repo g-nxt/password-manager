@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/password-manager/static/css/main.57965a1c.chunk.css",
+    "main.js": "/password-manager/static/js/main.d12632be.chunk.js",
+    "main.js.map": "/password-manager/static/js/main.d12632be.chunk.js.map",
+    "runtime-main.js": "/password-manager/static/js/runtime-main.4112860c.js",
+    "runtime-main.js.map": "/password-manager/static/js/runtime-main.4112860c.js.map",
+    "static/js/2.273be95e.chunk.js": "/password-manager/static/js/2.273be95e.chunk.js",
+    "static/js/2.273be95e.chunk.js.map": "/password-manager/static/js/2.273be95e.chunk.js.map",
+    "index.html": "/password-manager/index.html",
+    "static/css/main.57965a1c.chunk.css.map": "/password-manager/static/css/main.57965a1c.chunk.css.map",
+    "static/js/2.273be95e.chunk.js.LICENSE.txt": "/password-manager/static/js/2.273be95e.chunk.js.LICENSE.txt",
+    "static/media/add-icon.4453d548.png": "/password-manager/static/media/add-icon.4453d548.png",
+    "static/media/delete-icon.c6477a00.png": "/password-manager/static/media/delete-icon.c6477a00.png",
+    "static/media/edit-icon.3e7ddfee.png": "/password-manager/static/media/edit-icon.3e7ddfee.png",
+    "static/media/eye.16f4853e.png": "/password-manager/static/media/eye.16f4853e.png",
+    "static/media/footer-graphic.9c305bd0.png": "/password-manager/static/media/footer-graphic.9c305bd0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4112860c.js",
+    "static/js/2.273be95e.chunk.js",
+    "static/css/main.57965a1c.chunk.css",
+    "static/js/main.d12632be.chunk.js"
+  ]
+}
