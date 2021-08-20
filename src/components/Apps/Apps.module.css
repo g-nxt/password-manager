@@ -4,9 +4,10 @@
 
 }
 
-/*body {
-    background: linear-gradient(to bottom right, #00101f, #05445E, #065778);
-}*/
+body {
+    /*background: linear-gradient(to bottom right, #00101f, #05445E, #065778);*/
+    background: black;
+}
 
 .Apps {
     width: 90%;
