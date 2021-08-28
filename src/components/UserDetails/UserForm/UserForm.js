@@ -84,11 +84,11 @@ const userForm = (props) => {
         }
     }
 
-    const userOnChange = (e) => setUserValue(e.target.value)
+    const userOnChange = (e) => setUserValue(e.target.value.trim())
 
 
     const passwdOnChange = (e) => {
-        const passVal = e.target.value
+        const passVal = e.target.value.trim()
         setPasswdValue(passVal)
         switch (true) {
             case (charValidation(SPCL_CHAR, passVal)
@@ -170,7 +170,7 @@ const userForm = (props) => {
 
     const exstUserList = props.existingUsers === undefined ? [] : props.existingUsers.toString().toLowerCase().split(',')
 
-    if ((exstUserList.indexOf(userValue.toLowerCase()) > -1) && !(exstUserList.indexOf('') > -1)) {
+    if ((exstUserList.indexOf(userValue.toLowerCase().trim()) > -1) && !(exstUserList.indexOf('') > -1)) {
         war = <h6 className={classes.warning}>* User Name already exist</h6>
     }
 
