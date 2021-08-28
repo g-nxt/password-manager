@@ -240,11 +240,15 @@ class PasswordManager extends Component {
                                   editUserDetail={(userName, newPassword) => this.userModPassCodeHandler(userName, newPassword)}
                                   delUserDetail={(delUser, delPassword) => this.delUserPassCodeHandler(delUser, delPassword)}
                                   delAppConfirmationPending={this.state.deleteAppConfirmationPending}
+                                  isUserEmpty={toLoad.map(elt => {
+                                      return elt.users.user.length === 0
+                                  })[0]}
                                   userList={toLoad.map(elt => {
                                       return elt.users.user
-                                  })} pwdList={toLoad.map(elt => {
-                return elt.users.pwd
-            })}/>
+                                  })}
+                                  pwdList={toLoad.map(elt => {
+                                      return elt.users.pwd
+                                  })}/>
         } else {
             /*userList = <div className={classes.pickApp}><input type="image" src={NothingtoSee} alt=""/></div>;*/
             /*userList = <div className={classes.pickApp}>Please pick or add an app for details</div>;*/

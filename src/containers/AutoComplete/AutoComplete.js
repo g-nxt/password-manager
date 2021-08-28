@@ -25,7 +25,7 @@ class AutoComplete extends Component {
 
     onChange = e => {
         const {suggestions} = this.props;
-        const userInput = e.currentTarget.value;
+        const userInput = e.currentTarget.value.trim();
 
         // Filter our suggestions that don't contain the user's input
         const filteredSuggestions = suggestions.sort().filter(

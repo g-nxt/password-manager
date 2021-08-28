@@ -24,6 +24,7 @@ class Apps extends Component {
     /*let selectedApp;*/
 
     changeHandler = (userInput) => {
+        userInput = userInput.trim()
         /*if(this.props.disableAppChange) {
             this.setState({
                 displayGetPassword: false,
